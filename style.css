@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(60,60,60); 
+    color: white;
+    text-align: center;
+    zoom: 120%;
+}
+
+::placeholder {
+    color: rgb(200,200,200);
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#content, #categories {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    background-color: inherit;
+    color: red;
+}
+
+.category, .connexion {
+    border: solid;
+    border-radius: 10px;
+    margin-left: 50px; 
+    margin-right: 50px;
+    margin-top: 20px; 
+}
+
+#upload {
+    border-bottom: solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#upload, .category, .connexion {
+    border-color: ivory;
+    padding: 20px;
+}
